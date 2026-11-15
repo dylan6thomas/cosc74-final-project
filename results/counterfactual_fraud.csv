@@ -1,0 +1,16 @@
+variant,model,caught before,caught after,flip rate (of caught),mean ΔP(fraud)
+logo only,M1 LR-meta,80,60,0.25,-0.06412663796925265
+logo only,M2 LR-tfidf,108,108,0.0,0.0
+logo only,M3 LGBM-meta+text,96,56,0.4166666666666667,-0.25229975521509534
+logo only,M3 no logo/profile,82,82,0.0,0.0
+logo only,M4 LR-MiniLM,62,62,0.0,0.0
+profile only,M1 LR-meta,80,30,0.625,-0.17532243511034243
+profile only,M2 LR-tfidf,108,27,0.75,-0.5133614423691707
+profile only,M3 LGBM-meta+text,96,11,0.8854166666666666,-0.5814977340013394
+profile only,M3 no logo/profile,82,82,0.0,0.0
+profile only,M4 LR-MiniLM,62,27,0.5645161290322581,-0.13533203675442154
+logo + profile,M1 LR-meta,80,24,0.7,-0.27370014210337734
+logo + profile,M2 LR-tfidf,108,27,0.75,-0.5133614423691707
+logo + profile,M3 LGBM-meta+text,96,10,0.8958333333333334,-0.5926554145969185
+logo + profile,M3 no logo/profile,82,82,0.0,0.0
+logo + profile,M4 LR-MiniLM,62,27,0.5645161290322581,-0.13533203675442154

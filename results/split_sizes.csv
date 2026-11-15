@@ -1,0 +1,4 @@
+,ads,fraud,fraud rate
+train,11489,491,4.27%
+validation,2285,100,4.38%
+test,2292,127,5.54%

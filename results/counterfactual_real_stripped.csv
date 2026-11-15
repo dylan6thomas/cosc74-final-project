@@ -1,0 +1,6 @@
+model,real ads,false positives before,false positives after,"newly flagged per 1,000"
+M1 LR-meta,1672,22,449,255.3827751196172
+M2 LR-tfidf,1672,1,12,6.578947368421052
+M3 LGBM-meta+text,1672,0,41,24.52153110047847
+M3 no logo/profile,1672,4,4,0.0
+M4 LR-MiniLM,1672,33,48,10.167464114832535

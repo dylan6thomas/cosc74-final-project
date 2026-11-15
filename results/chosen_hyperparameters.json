@@ -1,0 +1,35 @@
+{
+  "best_model": "M2 LR-tfidf",
+  "thresholds": {
+    "B0 Majority": 0.5,
+    "B1 Rule": 0.5,
+    "M1 LR-meta": 0.7964265484931802,
+    "M2 LR-tfidf": 0.4024926487377811,
+    "M3 LGBM-meta+text": 0.2193548416486197,
+    "M4 LR-MiniLM": 0.8266563511368535,
+    "M3 no logo/profile": 0.2898452710198752
+  },
+  "m3_params": {
+    "n_estimators": 600,
+    "learning_rate": 0.1,
+    "num_leaves": 63,
+    "imb": "ros"
+  },
+  "m3_noshortcut_params": {
+    "n_estimators": 600,
+    "learning_rate": 0.1,
+    "num_leaves": 15,
+    "imb": "ros"
+  },
+  "m1_params": {
+    "clf__C": 0.01
+  },
+  "m2_params": {
+    "clf__C": "30",
+    "clf__class_weight": "None",
+    "ros": "RandomOverSampler(random_state=42)"
+  },
+  "m4_params": {
+    "clf__C": 1
+  }
+}
